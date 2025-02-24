@@ -5,7 +5,7 @@ A Chrome extension to automate tedious data entry on a company website hosted by
 ## Features
 - **Drag-and-Drop**: Load items from a JSON file directly into the extension popup.
 - **Automation**: Fills the `estimate-items` field, selects autocomplete options, sets quantities, and clicks "Add Item."
-- **Scoped**: Works on specific project view pages (`https://website.com/apps/project/view/*`).
+- **Scoped**: Works on specific project view pages (`https://website.com/apps/project/*`).
 - **Error Handling**: Color-coded console logs for easy debugging.
 
 ## Demo
