@@ -14,7 +14,7 @@ A Chrome extension to automate tedious data entry on a company website hosted by
 ## Installation
 
 ### From Chrome Web Store
-1. Visit [Item Adder on Chrome Web Store](https://chrome.google.com/webstore/detail/item-adder/<pending>).
+1. Visit [Item Adder on Chrome Web Store]([https://chrome.google.com/webstore/detail/item-adder/<pending>](https://chromewebstore.google.com/detail/dbkchnmkanheomghpiicapmogkfiemoj?utm_source=item-share-cb)).
 2. Click **Add to Chrome**.
 3. Sign into Chrome with sync enabled to use it on any device.
 
