@@ -12,9 +12,26 @@
       border: 2px dashed #ccc;
       padding: 20px;
       text-align: center;
+      margin-bottom: 10px;
     }
     .drop-zone.dragover {
       background: #e0e0e0;
+    }
+    textarea {
+      width: 100%;
+      height: 100px;
+      margin-bottom: 10px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #0056b3;
     }
   </style>
 </head>
@@ -22,6 +39,8 @@
   <div class="drop-zone" id="dropZone">
     <p>Drag your JSON file here to process items.</p>
   </div>
+  <textarea id="pasteArea" placeholder="Paste Excel data here (item_num, item_qty per row)"></textarea>
+  <button id="submitPaste">Process Pasted Data</button>
   <script src="popup.js"></script>
 </body>
 </html>
